@@ -33,8 +33,9 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/89/85/5289852d-62fa-78b4-3f30-e3bd0b87b95d/AppIcon-0-0-1x_U007emarketing-0-7-0-0-P3-85-220.png/512x512bb.jpg" height="40" alt="MDB Logo" loading="lazy" />
+                    <span class="ms-1">Todo App</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
